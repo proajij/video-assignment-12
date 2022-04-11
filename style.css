@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1240px;
+    margin: auto;
+}
+.banner{
+    background-image: url(./pexels-thirdman-7993951.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 850px;
+   
+}
+.menu{
+    background-color: rgb(0, 100, 0);
+    text-align: center;
+    padding: 15px;
+ 
+    
+}
+.menu ul li{
+    display: inline-block;
+    width: 80px;
+    margin: 10px;
+    padding: 15px;
+    transition: .5s;
+    position: relative;
+
+ 
+
+}
+.menu ul li a{
+    text-emphasis: none;
+    color: #fff;
+    text-decoration: none;
+  
+}
+
+ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px ;
+}
+.menu ul li .submenu-2{
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+ ;
+
+}
+.menu ul li:hover .submenu-2{
+    opacity: 1;
+    visibility: visible;
+  
+    
+}
+.menu ul li .submenu-2 li ul.submenu-3{
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.active:first-child{
+    background: #2bab0d;
+    border-radius: 3px ;
+}
+.menu .fa-solid{
+    margin-right: 10px;
+}
+.fa-solid.fa-clone {
+	position: absolute;
+	right: 79px;
+	top: 19px;
+}
+.fa-solid.fa-angellist {
+	position: absolute;
+	right: 79px;
+	top: 19px;
+}
+.fa-solid.fa-edit {
+	position: absolute;
+	right: 79px;
+	top: 18px;
+}
+.sub-menu-1{
+    display: none;
+    margin-left: -90px;
+    margin-top: 33px;
+}
+li.submenu-2 {
+    position: relative;
+    background-color: #2bab0d;
+}
+.submenu-2 {
+	position: absolute;
+	background-color: #006400;
+	top: 48px;
+}
+.menu ul li .submenu-2 ul {
+	position: absolute;
+    margin-left: 100%;
+    top: 0;
+    background-color: #006400;
+    visibility: hidden;
+    opacity: 0;
+    transition: 2s;
+}
+.menu ul li .submenu-2 li:hover ul{
+    visibility:visible;
+    opacity: 1;
+}
